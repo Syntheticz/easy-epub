@@ -1,0 +1,29 @@
+{
+  "name": "easy-epub",
+  "version": "0.0.1",
+  "description": "This is a package for easy parsing of epub files.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syntheticz/easy-epub.git"
+  },
+  "keywords": [
+    "epub"
+  ],
+  "author": "Phil Guiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Syntheticz/easy-epub/issues"
+  },
+  "homepage": "https://github.com/Syntheticz/easy-epub#readme",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.2"
+  }
+}
